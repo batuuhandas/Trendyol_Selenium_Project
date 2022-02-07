@@ -1,0 +1,33 @@
+2022-01-29 23:59:14,802 INFO  [Log] a()Passed 
+2022-01-29 23:59:17,314 INFO  [Log] b()Passed 
+2022-01-29 23:59:20,149 INFO  [Log] c()Passed 
+2022-01-29 23:59:26,610 INFO  [Log] d()Passed 
+2022-01-29 23:59:28,010 INFO  [Log] e()Passed 
+2022-01-29 23:59:31,709 INFO  [Log] f()Passed 
+2022-01-29 23:59:31,841 ERROR [Log] g()Failed with cause: Error:Product price and Cart is not same! ==> expected: <true> but was: <false> 
+2022-01-29 23:59:35,076 INFO  [Log] h()Passed 
+2022-01-29 23:59:39,418 INFO  [Log] i()Passed 
+2022-01-31 21:13:38,116 INFO  [Log] go_to_login_page()Passed 
+2022-01-31 21:13:40,873 INFO  [Log] login()Passed 
+2022-01-31 21:13:43,706 INFO  [Log] search_a_product()Passed 
+2022-01-31 21:13:48,711 INFO  [Log] select_a_product()Passed 
+2022-01-31 21:13:50,129 INFO  [Log] add_product_to_cart()Passed 
+2022-01-31 21:13:53,827 INFO  [Log] go_to_cart_page()Passed 
+2022-01-31 21:13:55,882 ERROR [Log] add_new_product()Failed with cause: no such element: Unable to locate element: {"method":"css selector","selector":"button[class='ty-numeric-counter-button']"}
+  (Session info: chrome=97.0.4692.99)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-KPEH3AA', ip: '192.168.1.21', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\batuu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52899}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 89d7b1cd721b1f7e08486737d85a7f5e
+*** Element info: {Using=css selector, value=button[class='ty-numeric-counter-button']} 
+2022-01-31 21:14:00,262 INFO  [Log] delete_all_product()Passed 
+2022-01-31 21:14:25,712 INFO  [Log] go_to_login_page()Passed 
+2022-01-31 21:14:28,409 INFO  [Log] login()Passed 
+2022-01-31 21:14:31,209 INFO  [Log] search_a_product()Passed 
+2022-01-31 21:14:36,173 INFO  [Log] select_a_product()Passed 
+2022-01-31 21:14:37,614 INFO  [Log] add_product_to_cart()Passed 
+2022-01-31 21:14:41,581 INFO  [Log] go_to_cart_page()Passed 
+2022-01-31 21:14:44,826 INFO  [Log] add_new_product()Passed 
+2022-01-31 21:14:49,172 INFO  [Log] delete_all_product()Passed 
