@@ -19,9 +19,9 @@ public class BaseTest {
         driver.manage().window().maximize();
 
     }
-   /* @AfterAll
+    @AfterAll
     public void quit(){
         driver.quit();
-    }*/
+    }
 
 }
